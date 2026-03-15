@@ -1,0 +1,148 @@
+html,body {
+ 
+  background-image: url("/dashboard.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+
+.dashboard-container {
+  max-width: 900px;
+  margin: 0px auto;
+  padding: 20px;
+  
+  background: rgba(15, 23, 42, 0.85);
+  border-radius: 10px;
+
+}
+
+form {
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #475569;
+  border-radius: 4px;
+  background-color: #334155;
+  color: white;
+}
+
+form button {
+  background-color: #6366f1;
+  color: white;
+  padding: 8px 14px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #4f46e5;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th {
+  background-color: #1e293b;
+  padding: 10px;
+  border: 1px solid #475569;
+  text-align: left;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #475569;
+}
+
+tr:hover {
+  background-color: transparent;
+}
+
+.edit-btn {
+  background-color: #0961b9;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #0961b9;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-btn {
+  background-color: #475569;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.deadline {
+  color: #ef4444;
+  font-weight: bold;
+}
+
+.status {
+  font-weight: bold;
+}
+
+.status.Completed {
+  color:rgb(26, 243, 44);
+}
+
+.status.In-Progress {
+  color:  #4d95eef8;;
+}
+
+.status.Not-Started {
+  color: #a2c8f8f8;
+}
+
+.message{
+  background-color: #334155;  
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+
+}
+
+.logout-btn {
+  width: auto;
+  padding: 8px 16px;
+  margin-top: 10px;
+  background: #334155;;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: #334155;
+}

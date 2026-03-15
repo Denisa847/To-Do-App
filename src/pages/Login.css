@@ -1,0 +1,142 @@
+/* html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  width: 300px;
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+button{
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #6366f1;
+  color: white;
+  cursor: pointer;
+   margin-top: 15px;
+}
+
+.forgot-link {
+  text-align: right;
+  margin:0;
+}
+
+.register-link {
+  text-align: center;
+  margin-top:10px;
+}
+
+a {
+  color: #6366f1; 
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #818cf8; 
+  text-decoration: underline;
+}
+
+.message{
+  background-color: #334155;  
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+
+} */
+
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.login-page,
+.forgot-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/dashboard.jpg");
+  background-size: cover;
+  background-position: center;
+
+}
+
+.login-box,
+.forgot-box {
+  width: 320px;
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #334155;
+  color: white;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #6366f1;
+  color: white;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background: #818cf8;
+}
+
+.forgot-link {
+  text-align: right;
+  margin: 0;
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+a {
+  color: #6366f1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #818cf8;
+  text-decoration: underline;
+}
+
+.message {
+  background-color: #334155;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  color: white;
+}
